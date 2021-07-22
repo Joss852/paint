@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paint - JM</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+    </head>
+    <body>
+        <section id="main">
+            <section id="header">
+                <b>Color: </b><input onchange="canvasColor(this)" type="color"></input>
+                <b>Size: </b><input onchange="canvasSize(this)" type="number"></input>
+                <b></b><input onclick="canvasClean()" type="submit" value="Clean"></input>
+            </section>
+            <canvas id="canvas" width="800" height="500">
+                If you can read this text, you should switch the browser.
+            </canvas>
+        </section>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
